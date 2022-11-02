@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Chat Redes 2022</title>
+  <!--Link to CSS -->
+  <link href="./static/bootstrap.min.css" rel="stylesheet">
+  <link href="./static/style.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+  <form class="form-signin" action="{{url_for('chat')}}" method="POST">
+    <h1 class="h2 mb-3 font-weight-normal">Chat Redes 2022</h1><br><br>
+    <input type="text" id="username" name="username" class="form-control" placeholder="Nombre de usuario" required autofocus><br>
+    <button class="btn btn-lg btn-primary btn-block" value="submit">Unirse al chat</button>
+  </form>
+</body>
+
+</html>
